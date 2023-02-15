@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "playground",
+			"path": "."
+		},
+		{
+			"name": "Weather App Udemy",
+			"path": "../../../../Weather App Udemy"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Weather App Udemy"
+	}
+}
