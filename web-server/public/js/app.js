@@ -50,4 +50,4 @@ fetch('http://localhost:3000/weather?address=!' + location).then((response) => {
 //addEventListener method. The event listener listens for the "submit" event
 //Form is submitted, the value of the input element is retrieved using the value property
 //fetch method is used to make a request to a server that will provide the weather data for the specified location.
-//.then method is used to handle the response from the server.
+//.then method is used to handle the response from the server.  

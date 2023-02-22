@@ -28,21 +28,7 @@ if (!address) {
 }
 
 console.log(process.argv)
-// const url = 'http://api.weatherstack.com/current?access_key=dc127f6627d2f65dadd588698d44aca9&query=37.8267,-122.4233&units=f'
 
-// request({ url: url, json: true }, (error, response) => {
-// //grabs properties ex: current, daily, hourly
-// if (error){
-//     console.log('Unable to connect to weather service!')
-// } else if (response.body.error) {
-//     console.log('Unable to find location')
-
-// } else {
-//     console.log(response.body.current.weather_descriptions[0] + ". It is currently " + response.body.current.temperature + " degrees out. It feels like " + response.body.current.feelslike + " degrees out.")
-// }
-// })
- 
-// Accept location via command line argument 
 
 
 

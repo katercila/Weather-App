@@ -17,7 +17,7 @@ const publicDirectoryPath = path.join(__dirname, '../public') //path to file its
 const viewsPath = path.join(__dirname, '../templates/views')
 const partialsPath = path.join(__dirname, '../templates/partials')
 
-
+ 
 
 //Setup handlebars and views location
 app.set('view engine', 'hbs')
@@ -33,23 +33,23 @@ app.use(express.static(publicDirectoryPath))
 app.get('', (req, res) => {
     res.render('index', {
         title: 'Weather',
-        name: 'Kat Ercila'
+        name: 'Katerin Ercila'
     })  
 })
 
 app.get('/about', (req, res) => {
     res.render('about', {
         title: 'About Me',
-        name: 'Kat Ercila'
+        name: 'Katerin Ercila'
     })
 
 })
 
 app.get('/help', (req, res) =>{
     res.render('help', {
-        helpText: 'This is a cute baby cow!',
+        helpText: 'Send us a message if you have any questions!',
         title: 'Help',
-        name: 'Kat Ercila'
+        name: 'Katerin Ercila'
     })
 })
 
@@ -101,7 +101,7 @@ if (!req.query.search) {  //only runs when there is no search term
 app.get('/help/*', (req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Kat Ercila',
+        name: 'Katerin Ercila',
         errorMessage: 'Help article not found.'
     })
 })
@@ -110,7 +110,7 @@ app.get('/help/*', (req, res) => {
 app.get('*',(req, res) => {
     res.render('404', {
         title: '404',
-        name: 'Kat Ercila',
+        name: 'Katerin Ercila',
         errorMessage: 'Page not found.'
     })
 })
